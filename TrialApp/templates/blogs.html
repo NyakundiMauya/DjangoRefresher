@@ -1,0 +1,29 @@
+{% load static %}
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blogs</title>
+</head>
+<body>
+<a href="{% url 'home' %}">Home</a>
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'contact' %}">Contact</a>
+<a href="{% url 'services' %}">Services</a>
+<a href="{% url 'blogs' %}">Blogs</a>
+<h2>Blogs</h2>
+<p><span><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At esse laborum nemo nobis nostrum quae rem repudiandae, ut. Cupiditate eius error est explicabo fugit harum labore minus, nesciunt nostrum perspiciatis?</span><span>Autem et fuga quam repudiandae soluta? Aspernatur beatae cupiditate dicta ea error excepturi expedita, facere id maiores minima modi nam nisi non omnis perferendis quaerat qui quidem quo ratione tempore.</span><span>Asperiores blanditiis consectetur consequatur delectus, doloremque est facilis hic ipsam iure maxime modi neque numquam officiis omnis porro quas quo rerum saepe ullam unde vel velit veniam veritatis vitae voluptatibus.</span></span></p>
+
+<img src="{% static 'images/racedonkey.jpg' %}" alt="">
+<img src="{% static 'images/flag.jpg' %}" alt="">
+<img src="{% static 'images/flag.jpg' %}" alt="">
+<img src="{% static 'images/flag.jpg' %}" alt="">
+<img src="{% static 'images/flag.jpg' %}" alt="">
+</body>
+</html>

@@ -1,0 +1,27 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About</title>
+</head>
+<body>
+<a href="{% url 'home' %}">Home</a>
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'contact' %}">Contact</a>
+<a href="{% url 'services' %}">Services</a>
+<a href="{% url 'blogs' %}">Blogs</a>
+<h2>About Us</h2>
+<p><span><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aspernatur atque culpa dolor doloremque, ducimus ea eos excepturi exercitationem ipsam magnam modi natus reiciendis, vitae voluptatem? Ipsa laudantium natus ratione?</span><span>Animi atque, dolores eius esse magnam nesciunt quas quod recusandae soluta veritatis. Consequuntur deserunt ea et iste magnam, nulla possimus quaerat, quam quibusdam quisquam, rerum sapiente sed tempora tenetur voluptates?</span><span>Animi consectetur deserunt dignissimos doloremque eaque earum enim error, et explicabo fugiat hic itaque libero magni nihil nisi omnis perspiciatis, placeat quaerat quas quod recusandae repellendus sequi tempore tenetur totam.</span><span>Delectus eos exercitationem facere perferendis voluptate! Assumenda eligendi excepturi id nam porro possimus tempora unde. Adipisci aliquam architecto consectetur doloremque, eius labore, minima natus necessitatibus officia pariatur, sunt unde voluptatem.</span><span>Ad debitis, deleniti ea earum ex in incidunt iste iure labore molestiae natus omnis quam quasi quod soluta ullam ut vero voluptatum? Alias delectus id iure labore obcaecati quae quos.</span><span>Aliquam consequatur molestias nemo sunt veniam. A architecto dolor fugiat itaque labore laudantium minus perspiciatis totam ut vitae? Distinctio laboriosam porro quae quasi, quidem quod quos rem sapiente sequi totam.</span></span></p>
+
+<img src="{% static 'images/flag.jpg' %}" alt="">
+<img src="{% static 'images/flag.jpg' %}" alt="">
+<img src="{% static 'images/flag.jpg' %}" alt="">
+<img src="{% static 'images/kenyahaiti.jpg' %}" alt="">
+</body>
+</html>

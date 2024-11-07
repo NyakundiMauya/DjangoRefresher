@@ -1,0 +1,29 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Page</title>
+</head>
+<body>
+<a href="{% url 'home' %}">Home</a>
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'contact' %}">Contact</a>
+<a href="{% url 'services' %}">Services</a>
+<a href="{% url 'blogs' %}">Blogs</a>
+<h2>Contact Us</h2>
+<p><span><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam delectus doloribus, nam nesciunt quo recusandae similique sunt tempora. Asperiores autem est eveniet ipsa iure laborum libero obcaecati reiciendis voluptates?</span><span>Laboriosam, nisi, porro. Aliquam, aliquid consequuntur doloremque eaque eius enim et harum incidunt ipsa nam nemo nesciunt nulla numquam odit officia perferendis perspiciatis quas quidem quis quisquam ratione saepe sit!</span><span>Deserunt fugiat incidunt rem vero voluptatibus? Eveniet inventore necessitatibus pariatur quas quos repudiandae. Nam, odit, sit. A ab architecto, eveniet fugiat incidunt iste molestiae necessitatibus quia quidem recusandae ullam veritatis?</span><span>Deleniti deserunt dignissimos dolorem ducimus maiores minus mollitia nesciunt quis sint, suscipit tenetur vero. Aut laboriosam nihil nostrum numquam quae quia ut voluptas! Cumque, eius ipsam iste iure laborum molestiae.</span></span></p>
+
+
+<img src="{% static 'images/racedonkey.jpg' %}" alt="">
+<img src="{% static 'images/show-events-01.jpg' %}" alt="">
+<img src="{% static 'images/show-events-03.jpg' %}" alt="">
+<img src="{% static 'images/coast.jpg' %}" alt="">
+<img src="{% static 'images/show-events-04.jpg' %}" alt="">
+</body>
+</html>
